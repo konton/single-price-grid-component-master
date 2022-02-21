@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+*{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+body{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 27% 46% 27%;
+    grid-template-rows: 20% 60% 20%;
+    background-color: azure;
+}
+.card{
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 1px grey;
+    overflow: hidden;
+
+}
+.st{
+    background-color: hsl(210, 100%, 100%);
+    width: 200%;
+    display: grid;
+    grid-template-columns: auto ;
+    grid-template-rows: auto auto;
+    grid-column: 1;
+    
+    
+}
+.st h1{
+    color: hsl(179, 62%, 43%);
+    font-size: 25px;
+    width: fit-content;
+    height: fit-content;
+}
+.st h2{
+    color: hsl(71, 73%, 54%);
+    font-size: 20px;
+}
+.st p{
+    color: hsl(218, 22%, 67%);
+    line-height: 150%;
+}
+.content{
+    margin: 20px 50px
+}
+.dl{
+    /* display: flex;
+    flex-direction: column; */
+    grid-column: 1;
+    grid-row: 2;
+    color: white;
+    padding: 20px 50px;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    
+}
+.dl h1{
+    font-size: 20px;
+}
+.dlc{
+    display: flex;
+    flex-direction: row;
+    
+}
+.dlc h2{
+    font-size: 30px;
+    margin: 0px;
+}
+.dlc p{
+     margin: 8px;
+}
+.dl button{
+    width: 93%;
+    height: 50px;
+    background-color: hsl(71, 73%, 54%);
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 50px;
+    box-shadow: 2px 2px 5px 1px grey;
+}
+.dr{
+  
+    /* display: grid; */
+    grid-column: 2;
+    grid-row: 2;
+    color: white;
+    background-color: hsl(179, 46%, 52%);
+    background-clip: padding-box;
+    padding: 20px 50px;
+    
+}
+.dr h1{
+    font-size: 20px;
+}
